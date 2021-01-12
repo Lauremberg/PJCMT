@@ -20,7 +20,7 @@ docker-compose up -d
 ```
 4 - Após subir os containers, substitua os seguintes arquivos nas pastas pelos arquivos aqui do github conforme descrito abaixo:
 
-4.1 - Acessar a pasta '/opt/postgres' e substituir o arquivo que está pelos seguintes arquivos que estão aqui no Git:
+4.1 - Acessar a pasta '/opt/postgres' e substituir o arquivo que estão na pasta pelos seguintes arquivos que estão aqui no Git:
 
 - pg_hba.conf
 - postgresql.conf
@@ -54,6 +54,14 @@ max_parallel_workers_per_gather = 4
 max_parallel_workers = 8
 max_parallel_maintenance_workers = 4
 ```
+4.2 - Após alterar os arquivos, acessar o psql com o usuario postgres e execute o comando abaixo para aplicar as atualizações feitas nos arquivos:
+```bash
+# su - postgres
+# psql
+postgres=# SELECT pg_reload_conf();
+```
+
+
 
 
 
