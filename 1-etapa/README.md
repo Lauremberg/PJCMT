@@ -20,7 +20,7 @@ docker-compose up -d
 ```
 4 - Após subir os containers, substitua os seguintes arquivos nas pastas pelos arquivos aqui do github conforme descrito abaixo:
 
-4.1 - Acessar a pasta '/opt/postgres' e substituir o arquivo que estão na pasta pelos seguintes arquivos que estão aqui no Git:
+4.1 - Acessar a pasta '/opt/postgres' e substituir os arquivos que estão na pasta pelos seguintes arquivos que estão aqui no Git:
 
 - pg_hba.conf
 - postgresql.conf
