@@ -26,6 +26,7 @@ docker-compose up -d
 - postgresql.conf
 
 Foi inserido no arquivo '*pg_hba.conf*' a faixa de IP's 192.168.0.0/24 com direito a acessar o banco de dados.
+
 Foi inserido no arquivo '*postgresql.conf*' as alterações para que trabalhe com a melhor performance e segurança.
 
 ```bash
