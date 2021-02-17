@@ -1,7 +1,7 @@
-# Banco Conveniência
+# PROCESSO SELETIVO PJC/MT
 
-1 - Baixar todos os scripts para a maquina com o PostgreSQL 10.
+### Avaliação banco de dados
 
-2 - Rode os scripts na sequência da numeração dos arquivos .sql.
-
+Candidato: Lauremberg de Figueiredo Sales
+E-mail:  lauremberg@gmail.com
 
